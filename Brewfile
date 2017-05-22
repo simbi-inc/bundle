@@ -9,3 +9,8 @@ brew 'openssl'
 brew 'postgres'
 brew 'redis'
 
+
+## local changes below this line
+
+brew 'postgresql@9.5'
+

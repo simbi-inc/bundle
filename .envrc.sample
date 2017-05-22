@@ -7,3 +7,9 @@ chruby "$(cat .ruby-version)"
 ## example rvm setup
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm
 # rvm use . > /dev/null
+
+
+## Local changes below this file
+
+export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
+
